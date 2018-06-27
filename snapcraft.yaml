@@ -1,5 +1,5 @@
 name: my-snap-yoshi
-version: '1.0'
+version: '1.1'
 summary: GNU Hello, the "hello world" snap
 description: |
   GNU Hello prints a friendly greeting.
