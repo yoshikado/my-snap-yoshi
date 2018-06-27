@@ -1,0 +1,16 @@
+name: my-snap-yoshi
+version: '0.1'
+summary: GNU Hello, the "hello world" snap
+description: |
+  GNU Hello prints a friendly greeting.
+grade: stable
+confinement: strict
+
+apps:
+  hello:
+    command: hello
+
+parts:
+  gnu-hello:
+    plugin: autotools
+    source: http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz
